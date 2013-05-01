@@ -37,7 +37,21 @@ To use the images you simply need to use the following tags and you will have ac
 		<img src="{{ url:base }}files/large/{{ id }}/{{ width }}/{{ height }}" alt="{{ title }}" />
 	{{ /images }}
 
-### Category Object
+### Category Objects
+
+Within the page you will also have access to all of the category data associated with the product as well as all of the parent categories for these. Accessible via the following loop:
+
+	{{ category }}
+		Category object
+	{{ /category }}
+
+Or you can access the primary category information by using the following:
+
+	{{ category.0.id }}
+	{{ category.0.title }}
+	etc.
+
+All of these are complete objects and a full reference can be found [here](/documentation/themeing/categories).
 
 ### Currency Object
 

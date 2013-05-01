@@ -4,7 +4,8 @@ We're not tracking changes prior to version 1.0.2, if you are interested in find
 * *Additions*
 	* Added custom route mapping for all FireSale pages
 	* Added multiple currency options, driven by the open exchange API
-	* Added basic multi-tax rate system
+	* Added multiple tax bands
+	* Added a new optional brands feature
 	* Added 5 new payment gateways
 	* Added many install checks to easier debug installation issues with the core
 	* Added automatic route installation
@@ -13,12 +14,22 @@ We're not tracking changes prior to version 1.0.2, if you are interested in find
 * *Improvements*
 	* Updated CI-Merchant library with a host of new features
 	* Redesigned administration section that is fully responsive
+	* Required field-types are auto-installed
 	* Rebuilt the filtering options for many pages and is now ajax based
 	* Almost all languages improved
+	* Updated all default views to handle the new systems
 	* Better image upload error handling
 	* Updated product/category modifications with complete validation checks
+	* All settings are now multi-lingual
 	* Now correctly runs in sub-directory installs
 * *Bug Fixes*
+	* [Issue #186](https://github.com/firesale/FireSale/issues/186) - Remove delete button for default currency
+	* [Issue #185](https://github.com/firesale/FireSale/issues/185) - Currency conversion issues
+	* [Issue #184](https://github.com/firesale/FireSale/issues/184) - Ajax cart insertion returns success even on failure
+	* [Issue #183](https://github.com/firesale/FireSale/issues/183) - Numerous price inconsistencies
+	* [Issue #180](https://github.com/firesale/FireSale/issues/180) - Duplicate Routes Added to File
+	* [Issue #167](https://github.com/firesale/FireSale/issues/167) - Checkout when shipping module is disabled
+	* [Issue #161](https://github.com/firesale/FireSale/issues/161) - Products Index Admin
 	* [Issue #136](https://github.com/firesale/FireSale/issues/136) - Can't checkout with a £0.00 cart
 	* [Issue #131](https://github.com/firesale/FireSale/issues/131) - Items fail to appear in cart
 	* [Issue #130](https://github.com/firesale/FireSale/issues/130) - Fixed tax calculation
